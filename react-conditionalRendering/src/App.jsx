@@ -13,7 +13,7 @@ function App() {
   //   )
   // }
   function handleState(){
-    setLoggedIn((prev)=>!prev)
+    setLoggedIn(!isLoggedIn)
     
   }
 
